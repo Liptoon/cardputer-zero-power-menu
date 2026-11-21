@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=Power Menu
+Exec=bin/power-menu
+Terminal=false
+Icon=share/images/power-menu.png
+Type=Application

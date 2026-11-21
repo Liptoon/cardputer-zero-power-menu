@@ -1,0 +1,41 @@
+{
+  "package_name": "power-menu",
+  "version": "0.1.2",
+  "app_name": "Power Menu",
+  "bin_name": "power-menu",
+  "description": "Restart or shut down the CardputerZero safely",
+  "store": {
+    "summary": "Restart or shut down the CardputerZero safely",
+    "description": "Proste menu z restartem i bezpiecznym wyłączaniem systemu CardputerZero. Wybór potwierdzasz przyciskami, a ekran czeka do faktycznego rebootu lub poweroffu.",
+    "categories": ["System Tools"],
+    "screenshots": [
+      "store/screenshots/menu.png",
+      "store/screenshots/confirm-restart.png",
+      "store/screenshots/confirm-shutdown.png",
+      "store/screenshots/menu-shutdown.png"
+    ],
+    "icon": "applaunch/share/images/power-menu.png",
+    "license": "MIT",
+    "source_repo": "https://github.com/Liptoon/cardputer-zero-power-menu",
+    "author": {
+      "github": "Liptoon",
+      "display_name": "Publius"
+    },
+    "share_code": "ZPWR",
+    "permissions": {
+      "camera": false,
+      "microphone": false,
+      "imu": false,
+      "network": false,
+      "additional_hardware": false,
+      "background_service": false,
+      "external_display": false
+    },
+    "locales": {
+      "pl": {
+        "title": "Menu zasilania",
+        "summary": "Bezpieczny restart i wyłączanie CardputerZero"
+      }
+    }
+  }
+}

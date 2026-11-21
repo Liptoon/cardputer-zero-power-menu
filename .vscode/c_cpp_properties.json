@@ -1,0 +1,21 @@
+{
+  "configurations": [
+    {
+      "name": "CardputerZero",
+      "includePath": [
+        "${workspaceFolder}/main/src",
+        "${workspaceFolder}/third_party/lvgl",
+        "${workspaceFolder}/**"
+      ],
+      "defines": [
+        "LV_CONF_PATH=\"${workspaceFolder}/lv_conf.h\"",
+        "APP_TITLE=\"Power Menu\""
+      ],
+      "compilerPath": "/usr/bin/g++",
+      "cStandard": "gnu17",
+      "cppStandard": "c++17",
+      "intelliSenseMode": "linux-gcc-x64"
+    }
+  ],
+  "version": 4
+}

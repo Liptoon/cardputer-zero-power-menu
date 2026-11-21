@@ -1,0 +1,36 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build: host",
+      "type": "shell",
+      "command": "make",
+      "group": { "kind": "build", "isDefault": true },
+      "problemMatcher": ["$gcc"]
+    },
+    {
+      "label": "build: CardputerZero (aarch64)",
+      "type": "shell",
+      "command": "make device",
+      "problemMatcher": ["$gcc"]
+    },
+    {
+      "label": "preview: render 320x170 screenshots",
+      "type": "shell",
+      "command": "make preview",
+      "problemMatcher": []
+    },
+    {
+      "label": "package: deb",
+      "type": "shell",
+      "command": "make deb",
+      "problemMatcher": []
+    },
+    {
+      "label": "clean",
+      "type": "shell",
+      "command": "make clean",
+      "problemMatcher": []
+    }
+  ]
+}
