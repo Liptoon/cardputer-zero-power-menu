@@ -46,20 +46,23 @@ Portal: <https://dev.cardputer.cc/#/upload>
 
 ## Preflight
 
-- [ ] `.deb` exists and can be parsed.
-- [ ] Control fields contain Package, Version, Architecture, and Maintainer.
-- [ ] Architecture is appropriate for the package (`arm64` for native binaries).
-- [ ] APPLaunch `.desktop`, executable, and PNG icon exist inside the package.
-- [ ] Package name ownership and update version are valid.
-- [ ] Listing copy and categories have been reviewed.
+- [x] `.deb` exists and can be parsed.
+- [x] Control fields contain Package, Version, Architecture, and Maintainer.
+- [x] Architecture is appropriate for the package (`arm64` for native binaries).
+- [x] APPLaunch `.desktop`, executable, and PNG icon exist inside the package.
+- [x] Package name ownership and update version are valid.
+- [x] Listing copy and categories have been reviewed.
 - [x] Four clean 320 x 170 baseline screenshots exist.
-- [ ] No credentials, tokens, or private server details are embedded.
+- [x] No credentials, tokens, or private server details are embedded.
 - [x] The user explicitly approved external submission.
+- [x] `prepublish_check.py` and the store meta policy pass without errors or warnings.
 
 ## Submission Result
 
-- Status: `ready to submit with czdev publish`
-- Submitted at: pending
-- Portal message: pending
-- Actions URL: pending
-- Tracking or pull-request URL: pending
+- Status: `submitted, first release awaiting maintainer review`
+- Submitted at: 2026-11-21
+- Portal message: `czdev publish` preflight and store policy checks passed
+- Actions URL: `https://github.com/CardputerZero/packages/actions`
+- Tracking or pull-request URL: `https://github.com/CardputerZero/packages/pull/621`
+- First-release demo comment: `https://github.com/CardputerZero/packages/pull/621#issuecomment-7065083145`
+- CI on the PR: `capture` success, `validate` success
